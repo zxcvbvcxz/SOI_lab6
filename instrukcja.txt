@@ -1,0 +1,22 @@
+	   case 'c' ://create
+            StworzWirtualnyDysk();
+
+        case 'r' ://remove
+            UsunWirtualnyDysk();
+
+        case 's' ://save on virtual
+            KopiujZFizycznegoNaWirtualny(argv[2]);
+
+        case 'a' ://show all files
+            PokazKatalog();
+
+        case 'm' ://disk map
+            PokazMapeDysku();
+
+        case 'd' ://delete file
+
+            usunPlikZDysku(argv[2]);
+
+        case 'p' ://save on physical
+            KopiujZWirtualnegoNaFizyczny(argv[2]);
+
